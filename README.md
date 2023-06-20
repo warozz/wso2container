@@ -20,3 +20,8 @@ to quickly evaluate product features along side their co-operate API Management 
 Docker images of WSO2 API Manager, WSO2 Identity Server as Key Manager, and Micro Integrator as well as MySQL.
 
 **Change log** from previous v4.1.0.2 release: [View Here](https://github.com/wso2/docker-apim/blob/4.1.x/CHANGELOG.md)
+
+#Configuration 
+docker build -t wso2am:4.2.0 .
+http://10.102.62.14/download/wso2am-4.2.0.zip
+docker run -it -p 8280:8280 -p 8243:8243 -p 9443:9443 --name api-manager wso2am:4.2.
